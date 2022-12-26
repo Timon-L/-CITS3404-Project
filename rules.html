@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zero</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="gameCSS.css">
+    <!-- (Before submitting, move into flaskserver/app/templates and replace link with this vvvvvvvvvvvvvvvvvvvvvvv)
+    <link rel="stylesheet" href="{{url_for('static', filename='gameCSS.css')}}"> 
+    -->
+</head>
+<body>
+    <!-- Top of the page, includes title, menus-->
+    <div id="game_head">
+        <div id="left_col">
+            <button id="rules" class="options" onclick="location.href='rules.html';">Rules</button><button  id="stats" class="options" onclick="location.href='stats.html';">Statistics</button>
+        </div>
+        <div id="title">
+            <button id="titleBtn" class="options_title" onclick="location.href='index.html';">Zero</button>
+        </div>
+        <div id="right_col">
+            <!-- Create Login and Sign Up Modals-->
+            <button  id="login" class="options">Login</button><button  id="sign_up" class="options">Sign Up</button>
+        </div>
+
+        <!-- Before submitting, move into flaskserver/app/templates and replace 
+        left_col, title and right_col divs with this vvvvvvvvvvvvvvvvv 
+    
+        <div id="left_col">
+            <button id="rules" class="options" onclick="location.href='{{url_for('rules')}}'";>Rules</button><button  id="stats" class="options" onclick="location.href='{{url_for('stats')}}';">Statistics</button>
+        </div>
+        <div id="title">
+            <button id="titleBtn" class="options_title" onclick="location.href='{{url_for('index')}}';">Zero</button>
+        </div>
+        <div id="right_col">
+            {% if anon %}
+            <button  id="login" class="options">Login</button><button  id="sign_up" class="options">Sign Up</button>
+            {% else %}
+            <button  id="logout" onclick="location.href='{{url_for('logout')}}';" class="options">Log Out</button>
+            {% endif %}
+        </div>
+
+        -->
+
+        <!-- Sign Up Modal -->
+        <div id="SignUpModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-container">
+                <span class="close">&times;</span>
+                <!-- Modal Title -->
+                <div class="modal-title">
+                    <h2>Sign Up</h2>
+                </div>
+                <p>Already have an account? <a id="loginln">Login</a></p>
+                <div>
+                    <!-- Form -->
+                    <form action="{{ url_for('handle_data_signup') }}" method="post">
+                        <label for="username"><b>Username</b></label> 
+                        <input type="text" id = "username" name="username" required>
+
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" id = "password" name="password" required>
+                        
+                        <label for="confirm-password"><b>Confirm Password</b></label>
+                        <input type="password" id = "confirm-password" name="confirm-password" required>
+                        
+                        <label>
+                            <input type="checkbox" name="agree" style="margin-bottom:10px"> User agrees to  Terms of Service and Privacy Policy
+                          </label>
+
+                        <div class="center-btn"><input type="submit" class="center-btn modal-btn" value="Sign Up"/> </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Login Modal -->
+        <div id="LogInModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-container">
+                <span class="close1">&times;</span>
+                <!-- Modal Title -->
+                <div class="modal-title">
+                    <h1>Login</h1>
+                </div>
+                <div>
+                    <!-- Form -->
+                    <form action="{{ url_for('handle_data_login') }}" method="post">
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" name="username" required>
+
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" name="password" required>
+
+                        <div class="center-btn"><input type="submit" class="center-btn modal-btn" value="Login"/> </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Flash messages (Jinja substitution) -->
+    <!-- Uncomment before submitting since this displays messages from the server database-->
+
+
+        
+    {% if get_flashed_messages() != [] %}
+    <div class="flashmessages">
+        {% if get_flashed_messages(category_filter=["success"]) != [] %}
+        <div class="basic-success">
+            {% with successlist = get_flashed_messages(category_filter=["success"]) %}
+                {% for i in successlist %}
+                <p>{{i}}</p>
+                {% endfor %}
+            {% endwith %}
+        </div>
+        {% endif %}
+        <br />
+        {% if get_flashed_messages(category_filter=["failure"]) != [] %}
+        <div class="basic-failure">
+            {% with successlist = get_flashed_messages(category_filter=["failure"]) %}
+                {% for i in successlist %}
+                <p>{{i}}</p>
+                {% endfor %}
+            {% endwith %}
+        </div>
+        {% endif %}
+    </div> 
+    {% endif %}
+    
+
+    <div class="rules_container">
+        <div class="rules_top">
+             <h1>How to Play</h1>
+        </div>
+        <div id="instructions" class="rule-container1">
+         You have to get to 0 in the smallest number of moves. Numbers are randomly generated, so plan ahead!
+        </div>
+        <div class="rules">
+             <div class="image">
+                 <img src="game_image.PNG" alt="game_image">
+             </div>
+            <div class="rule-container1">
+                <div class="rule-description">A random number is given at the top called puzzle number. The goal of this game is to get this number to 0.</div>
+                <div class="rule-description">The other 4 numbers are the numbers that can be used in conjunction with the operator buttons to reach the target.</div>
+                <div class="rule-description">To start a new game, press new game.</div>
+            </div>   
+            <div class="rule-container2">  
+                <div class="rule-description">The number in the grey box is your current number being used.</div>  
+            </div> 
+            <div class="rule-container3">    
+                <div class="rule-description">The numbers in the cream colored boxes are up coming numbers.</div>
+            </div> 
+            <div class="rule-container1">
+                <div class="rule-description">Trade 1 allows the current number and the next upcoming number to be switched.</div>
+            </div> 
+            <div>
+                <img src="Trade-1.gif" alt="Trade1">
+            </div>
+            <div class="rule-container1">
+                <div class="rule-description">Trade 2 allows the first upcoming number and the second upcoming number to be switched.</div>
+            </div>
+            <div>
+                <img src="Trade-2.gif" alt="Trade2">
+            </div>  
+            <div class="rule-container1">
+                <div class="rule-description">There are 4 operation numbers: Division, Mulitplication, Subtraction and Addition.</div>
+                <div class="rule-description">&divide; button divides the puzzle number with the current number. This button is only available if the puzzle number is divisble by the current number.</div>
+                <div class="rule-description">&minus; button subtracts the current number to the puzzle number.</div>
+                <div class="rule-description">&times; button multiplies the current number to the puzzle number.</div>
+                <div class="rule-description">&plus; button adds the current number to the puzzle number.</div>
+            </div>   
+            <div class="rule-container1">   
+                <div class="rule-description">Everytime a Trade or Operation button is used the move counter goes up.</div>
+                <div class="rule-description">Plan ahead and get the puzzle number to 0 with the fewest moves possible while dealing with unpredictable numbers.</div>
+            </div>
+        </div>
+    </div>
+    <button id="drop_btn">
+        <div id="icon_one" class="menu_icon"></div>
+        <div id="icon_two" class="menu_icon"></div>
+        <div id="icon_three" class="menu_icon"></div>
+        <ul id="dropdown_content">
+            <li class="menu_content" onclick="location.href='rules.html';">Rules</li>
+            <li class="menu_content" onclick="location.href='stats.html';">Stats</li>
+            <li class="menu_content" id="sign2">Sign Up</li>
+            <li class="menu_content" id="login2">Login</li>
+        </ul>
+        </button>
+        <span id="height" style="display:none"></span>
+        <span id="width" style="display:none"></span>
+    <script src="game_layout.js"></script>    
+    <script src="game_calc.js"></script>
+   
+   <!-- (Before submitting, move into flaskserver/app/templates and replace the script tag with this vvvvvvvvvvvvvvvvvvvvvvv)
+    <script src="{{url_for('static', filename='game_calc.js')}}"></script> 
+    -->
+</body>

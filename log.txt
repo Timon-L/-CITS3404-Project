@@ -1,0 +1,561 @@
+* commit f9e6889bdbae01d0782f47a305870cdb0ae4ecbb (HEAD -> main, origin/main, origin/HEAD)
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Tue May 24 18:24:07 2022 +0800
+| 
+|     Changed requirements.txt
+| 
+* commit ccfe739be5a778f01bab40e7159bd4f7e4de1444
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Tue May 24 18:18:51 2022 +0800
+| 
+|     Touched up project HTML, CSS, JS and back-end
+|   
+*   commit ad15e48dadb01703e6f2a4fdd57c473a37681484
+|\  Merge: 9144a79 856028f
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Mon May 23 12:00:20 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project
+| | 
+| * commit 856028f7f28a594dcbcf8f4cc5e5271fe0a6512b
+| | Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| | Date:   Mon May 23 11:56:07 2022 +0800
+| | 
+| |     Remove game mechanics functions
+| | 
+* | commit 9144a796cc5f3cbc507da2e5c79a10acaf2a6d72
+|/  Author: LvLaw <libbylaw@outlook.com>
+|   Date:   Mon May 23 11:59:59 2022 +0800
+|   
+|       Update
+| 
+* commit 617d8231550f19435dcabdb745098f069d91a6db
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Mon May 23 11:53:38 2022 +0800
+| 
+|     Update
+|   
+*   commit 88d03d8de36811b4879b286a2e0bb98a1980022d
+|\  Merge: 57a122d e7a4bb4
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Mon May 23 11:41:37 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project
+| | 
+| * commit e7a4bb4a8fa88eb3807d8c37d847a3d6b596713f
+| | Author: Bustanutrhyme <liuchingchun96@gmail.com>
+| | Date:   Mon May 23 11:40:07 2022 +0800
+| | 
+| |     Revert some changes
+| | 
+* | commit 57a122d1c8bf74716aa99df5031d851ac69875ca
+|/  Author: LvLaw <libbylaw@outlook.com>
+|   Date:   Mon May 23 11:41:23 2022 +0800
+|   
+|       Update
+| 
+* commit 509410d82fd0f7815851103677246aecaf6d0b1e
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Mon May 23 11:35:36 2022 +0800
+| 
+|     Update README.md
+| 
+* commit 9879ba3938d24a6db79737e2e08d20b5e28d8dbe
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Mon May 23 11:21:15 2022 +0800
+| 
+|     Validation changes
+| 
+* commit b8b0ee8adbac657316853afffee213829d3bb882
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Mon May 23 04:51:55 2022 +0800
+| 
+|     Finished Rules page
+| 
+* commit a2c0c1b07d4e57ce4425507281af9ef98168096a
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Mon May 23 03:07:36 2022 +0800
+| 
+|     rules update
+|   
+*   commit 72979cbc38952c305fb0b38a9d709b02533573e6
+|\  Merge: d90c50b fdbeda0
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Mon May 23 03:04:06 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project
+| |   
+| *   commit fdbeda02fa211b8f1d737a42ac7c00d4bad186ae
+| |\  Merge: 4b7c8a3 f80dd1c
+| | | Author: llimuwa <22857008@student.uwa.edu.au>
+| | | Date:   Mon May 23 01:54:39 2022 +0800
+| | | 
+| | |     Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project into main
+| | | 
+| * | commit 4b7c8a369a66bcdc773a237207674e8d03dfbcc2
+| | | Author: llimuwa <22857008@student.uwa.edu.au>
+| | | Date:   Mon May 23 01:54:18 2022 +0800
+| | | 
+| | |     Added feature to lose the game
+| | | 
+* | | commit d90c50baaf4a80c2c07a1d37fabcd1dab0713e0b
+| |/  Author: LvLaw <libbylaw@outlook.com>
+|/|   Date:   Mon May 23 01:44:36 2022 +0800
+| |   
+| |       Revert "Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project"
+| |       
+| |       This reverts commit f80dd1cd91169a25d4cb5ec38cb1c7acb53a5907, reversing
+| |       changes made to 3ace64d27cf69efac4f0298722b1584e95c50466.
+| | 
+* | commit f80dd1cd91169a25d4cb5ec38cb1c7acb53a5907
+|\| Merge: 3ace64d 64b7edf
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Mon May 23 01:43:32 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project
+| | 
+| * commit 64b7edf568ba93145d33176295ed49423d737ac2
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Mon May 23 01:27:44 2022 +0800
+| | 
+| |     Added server upload functionality
+| | 
+| * commit c22fcbacf73102ecbcb12b4390b966654b24a1ed
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Mon May 23 00:51:26 2022 +0800
+| | 
+| |     Added server-compatible tags on all pages
+| | 
+| * commit 426eb032c884e34346a9ef8c06ce0d3b4bb39240
+| | Author: Bustanutrhyme <liuchingchun96@gmail.com>
+| | Date:   Mon May 23 00:14:36 2022 +0800
+| | 
+| |     Dropdown button and contents now works
+| | 
+| * commit e3eca24fa5c24af512650dd2b6012aad587122c4
+| | Author: Bustanutrhyme <liuchingchun96@gmail.com>
+| | Date:   Mon May 23 00:13:22 2022 +0800
+| | 
+| |     Fixed styling in CSS, moved modal and server function from calc to backup
+| | 
+| * commit d2d64e67f9b7a99b05599e58f280589870c935c1
+| | Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| | Date:   Sun May 22 23:12:29 2022 +0800
+| | 
+| |     index back up with game_calc
+| | 
+| * commit d1cf4ba90dd5f674755a4ef63c82741a853bd447
+| | Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| | Date:   Sun May 22 23:08:51 2022 +0800
+| | 
+| |     Complete game_mechanics
+| | 
+* | commit 3ace64d27cf69efac4f0298722b1584e95c50466
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Mon May 23 01:42:08 2022 +0800
+| | 
+| |     Rules page update
+| | 
+* | commit 9a03373cef5cead62e9300546adb28a1836f543e
+|/  Author: LvLaw <libbylaw@outlook.com>
+|   Date:   Mon May 23 00:11:59 2022 +0800
+|   
+|       Added goal of game to index.html
+| 
+* commit ec2c00fda02fec89eaa963b05720535e0d186e27
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Sun May 22 21:58:52 2022 +0800
+| 
+|     Added extra class names to buttons
+| 
+* commit b0427e0e54eca51848a9c2f19c8c2827dc688909
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Sun May 22 21:46:01 2022 +0800
+| 
+|     Changed game calc script to game_backup(working version)
+| 
+* commit d929ece95044a22c99bb5d9673462f2e7d3e856c
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Sun May 22 21:41:23 2022 +0800
+| 
+|     Added game mechanics
+|     
+|     Added initialization
+|     Added operation buttons and functionality
+|     Added functionality to new game button
+|     Added functionality to Trade buttons
+|     Added moves incrementor
+| 
+* commit d16312407046fd25a552e338e679aed45055a9c7
+| Author: Bustanutrhyme <liuchingchun96@gmail.com>
+| Date:   Sun May 22 21:31:51 2022 +0800
+| 
+|     Fixed more styling
+| 
+* commit f633e893ea080b02b31ef486f2a5eb549902f6be
+| Author: Bustanutrhyme <liuchingchun96@gmail.com>
+| Date:   Sun May 22 19:55:48 2022 +0800
+| 
+|     Fixed layout style
+| 
+* commit 14f74221ab20145d576e8ba33bcd502ff8aa0e71
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sun May 22 12:11:23 2022 +0800
+| 
+|     Update index.html
+|     
+|     remove operation button
+| 
+* commit e86c08d48f63b57b2deac59a79101a133d26ccb8
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Sun May 22 02:16:30 2022 +0800
+| 
+|     Fixed JavaScript errors on game_calc.js
+| 
+* commit 7159ab1b5d5bb1d4c4a214566c29305de774b478
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Sun May 22 01:10:03 2022 +0800
+| 
+|     Updated README.md, minor unit testing changes
+| 
+* commit 5d3435e4dbb79c93505846e74e9f6dda93ac3a0e
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Sun May 22 00:25:03 2022 +0800
+| 
+|     Fixed UI elements, final major server cleanup
+| 
+* commit f8405b57e37241b9d73520864b0d68a7bc748e47
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sat May 21 14:45:09 2022 +0800
+| 
+|     Update gameCSS.css
+| 
+* commit 03479471b1faed311e9a090f7e2f8cfccd47d373
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sat May 21 14:39:15 2022 +0800
+| 
+|     Update gameCSS.css
+| 
+* commit 5f82f5d88fcc1d1e2c84cca305010f647f4d0da8
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sat May 21 14:34:49 2022 +0800
+| 
+|     Update gameCSS.css
+|     
+|     fixed operation button dimension
+| 
+* commit 6bb40961fb72f41e05c84045cfc19712623fcd8a
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sat May 21 14:31:37 2022 +0800
+| 
+|     Update index.html
+|     
+|     fixed operation buttons
+| 
+* commit f09aae1f2e7d1466609e021ae5d7f44319571b12
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sat May 21 13:42:21 2022 +0800
+| 
+|     Update game_calc.js
+| 
+* commit da53d23dc058c34ebcc5e7a91be1b6f0a3b2b3b7
+| Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+| Date:   Sat May 21 13:41:14 2022 +0800
+| 
+|     Update game_calc.js
+|     
+|     Fixed operation buttons, update number cards
+| 
+* commit fb67e1de5424fcc42f92d4c4c34c48e5ce0cb947
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Fri May 20 20:28:42 2022 +0800
+| 
+|     Fixed submit button action on modals, aligned server MVC with modals
+| 
+* commit 514a8dd5277bcb55270cba5463ddff17a16d95e9
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Fri May 20 18:35:07 2022 +0800
+| 
+|     Added login modal and other additions
+|     
+|     Added login modal
+|     Added sign up and login features to all pages
+|     Added statistics css to main css
+| 
+* commit c5753a16c089662f6c1c8067255a54d56b0c1042
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Fri May 20 16:51:57 2022 +0800
+| 
+|     Added sign up modal and form
+| 
+* commit 69be25cab81f73d391762af9bd256d24c5763930
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Wed May 18 22:15:33 2022 +0800
+| 
+|     Added login and signup pages, moved server to root directory
+| 
+* commit f0d1d8c9c767d29b312b634e182d8eac5ab03caf
+| Author: LvLaw <libbylaw@outlook.com>
+| Date:   Wed May 18 20:38:48 2022 +0800
+| 
+|     Fixed navbar
+|   
+*   commit 2a651c7909e5410ef4faa94e6ecba5b8d6e8ec38
+|\  Merge: ec732c4 52dbbca
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Wed May 18 18:38:04 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/LvLaw/CITS3404-Project
+| | 
+| * commit 52dbbca8f4d2d622482124fffb1cc430a82a82b6
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Tue May 17 21:14:07 2022 +0800
+| | 
+| |     Fixed divide by zero error in Jinja
+| | 
+| * commit 8bf8c3c6838f9c247bd56802cf3edb6c801681d4
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Tue May 17 21:06:12 2022 +0800
+| | 
+| |     Fixed typo in skeleton stats HTML
+| | 
+| * commit 8d20404f7a0f0e8a8c8c852416fe4248722b46eb
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Tue May 17 21:00:46 2022 +0800
+| | 
+| |     Refined database, forms
+| | 
+* | commit ec732c4fc4c40bef5731b4ffb9f5aeee9e4691aa
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Wed May 18 17:40:52 2022 +0800
+| | 
+| |     Added href to navbar
+| | 
+* | commit 12d6a6efb5b1f43b6c488dd55ad877dc484403aa
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Wed May 18 15:18:17 2022 +0800
+| | 
+| |     Update game_calc.js
+| | 
+* | commit e425b25bda42745baa86b558eee228c8a5abb920
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Wed May 18 00:12:34 2022 +0800
+| | 
+| |     Update game_calc.js
+| | 
+* | commit 54bd909a80b4784d46ca9c9a8854dc759c4532ec
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Wed May 18 00:00:25 2022 +0800
+| | 
+| |     Rules Page
+| | 
+* | commit 06429a1fbeb7f5433e87f13ab0c922c565033f59
+| | Author: LvLaw <libbylaw@outlook.com>
+| | Date:   Wed May 18 00:00:07 2022 +0800
+| | 
+| |     Generation of random numbers
+| | 
+* | commit 201ca91d24eb074a2a6472f7a615b82f0c373afb
+|/  Author: LvLaw <libbylaw@outlook.com>
+|   Date:   Sun May 15 03:43:46 2022 +0800
+|   
+|       Changed main page name
+| 
+* commit bf8d5470760c473e17b52908d3c90af9e1d66ce5
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Fri May 13 14:26:41 2022 +0800
+| 
+|     Reorganised server-side static files, added unit testing
+| 
+* commit e38d046d96627d14cc028122bd4fd224cd4da530
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Thu May 12 01:29:31 2022 +0800
+| 
+|     Added functionality for new game button
+| 
+* commit 3c68a4df4f37ad0ff9ff5b980fd8ea06b1838bde
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Mon May 9 04:45:42 2022 +0800
+| 
+|     server folder cleanup
+|   
+*   commit 9f9002f145b30b3cdfc8db39c5be386f6339215f
+|\  Merge: 59a0b0e 9b9302d
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Mon May 9 04:37:29 2022 +0800
+| | 
+| |     Merge remote-tracking branch 'refs/remotes/origin/main'
+| | 
+| * commit 9b9302db521cb7eebe827242d7bdf197fd97cb7a
+| | Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| | Date:   Tue May 3 23:54:16 2022 +0800
+| | 
+| |     fixed window load events
+| | 
+| * commit 0faa919039d4765da569505f69f489ea19ba9b46
+| | Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| | Date:   Tue May 3 23:41:18 2022 +0800
+| | 
+| |     added buttons and button responsiveness
+| | 
+* | commit 59a0b0e1d551adbc5b99c33386f3d26694354411
+|/  Author: llimuwa <22857008@student.uwa.edu.au>
+|   Date:   Mon May 9 04:33:14 2022 +0800
+|   
+|       Added Model-View-Controller system, authentication
+| 
+* commit 0d0dd854b51959fe82d3b6fff21360335504a277
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Sat Apr 30 17:22:34 2022 +0800
+| 
+|     Server folder cleanup (removed venv_
+| 
+* commit 8e87ce408b7075e1252a8febd9499b7d0e88a218
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Sat Apr 30 17:19:01 2022 +0800
+| 
+|     Server folder cleanup
+| 
+* commit c4f1c8a11a47deebd2762bbf685ade1c195b58cc
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Sat Apr 30 14:45:04 2022 +0800
+| 
+|     Resolved dependencies
+| 
+* commit 6ac0dc183b4ef1df863da6e1dcce349f7a15b81d
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Tue Apr 26 19:01:20 2022 +0800
+| 
+|     server folder cleanup
+| 
+* commit acab46749e7796478f18aab03fce00fe0cb7a531
+| Author: llimuwa <22857008@student.uwa.edu.au>
+| Date:   Tue Apr 26 18:58:53 2022 +0800
+| 
+|     Added number retrieval mechanism, changed database module layout
+| 
+* commit 2164d61cfbb45da3cd0dd70f128a66005bbd3b43
+| Author: LY L <lyl@A1707.local>
+| Date:   Tue Apr 26 04:38:12 2022 +0800
+| 
+|     Moved Flask server folder, installed more dependencies into venv, added database management
+| 
+* commit a0da982ebdb3696f5f9277b156b0399f0031af1b
+| Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| Date:   Sat Apr 23 21:02:30 2022 +0800
+| 
+|     improve responsiveness
+| 
+* commit 60be5be0fee5fd9f6dc8b3cddd3f61dc58205de6
+| Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| Date:   Sat Apr 23 20:41:27 2022 +0800
+| 
+|     added more parts of layout and added responsiveness
+| 
+* commit 4bb223fcacba553c57545381d6be8a04618c91cc
+| Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| Date:   Fri Apr 22 00:27:32 2022 +0800
+| 
+|     Added moves and scores container, change drop down button responsiveness
+| 
+* commit 235958a0e786a766683fcb11e549cd814c0b1db5
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 20:07:39 2022 +0800
+| 
+|     Delete .folder
+| 
+* commit 074db0ad2599af866f1c7a3f940445ea8594e8e3
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 20:06:58 2022 +0800
+| 
+|     Rename index.HTML to prototype/index.HTML
+| 
+* commit 2d1db1530bec5b95bf0bc10b3bcc90a673c11846
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 20:05:39 2022 +0800
+| 
+|     Rename rules.html to prototype/rules.html
+| 
+* commit cf980f9fb12d587cd388225bf1579dafd22fb730
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 20:05:04 2022 +0800
+| 
+|     Rename stats.html to prototype/stats.html
+| 
+* commit 5cf3ad70d4b7ff46b2320184faf4faada2e0e853
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 19:29:32 2022 +0800
+| 
+|     Rename styles.css to prototype/styles.css
+| 
+* commit a1d2f7199a078291459d89d6e0ae9609e147b559
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 19:23:49 2022 +0800
+| 
+|     Create .folder
+| 
+* commit 6ced929c19305b4bb3ac24eb940ab9320b125469
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 04:21:10 2022 +0800
+| 
+|     stylesheet for index.html
+| 
+* commit 64eae632f0b2f632d4cdb99cc1e43c961750a5e0
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 04:20:18 2022 +0800
+| 
+|     Create rules.html
+| 
+* commit 02a5468a6309e39544ca94857c8516a429a63039
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Thu Apr 14 04:18:52 2022 +0800
+| 
+|     Main Game page, styling needs to be chosen
+|   
+| * commit 81bdb9e811fb8878b933c5480eda106d9c6bcbd1 (origin/LvLaw-patch-1, LvLaw-patch-1)
+| | Author: llimuwa <22857008@student.uwa.edu.au>
+| | Date:   Thu Apr 14 13:18:23 2022 +0800
+| | 
+| |     Created Flask server folder with placeholder code
+| | 
+| * commit d1043a02e8649c606b4b90b0fd16eb2ab4e9a8a6
+|/  Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+|   Date:   Tue Apr 12 23:05:25 2022 +0800
+|   
+|       Create script.js
+| 
+* commit aafbbcdce9f836fe936ed9e2091a358f3583f855
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Tue Apr 12 22:59:26 2022 +0800
+| 
+|     Create stats.html
+| 
+* commit ff9fb1e802b1e01678d75444d42f2d05778630c1
+| Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| Date:   Mon Apr 11 01:15:11 2022 +0800
+| 
+|     fixed html css ref
+| 
+* commit 3652e573fb1a4155df609c5d9d1859a2a8dde28a
+| Author: bustanutrhyme <[liuchingchun96@gmail.com]>
+| Date:   Mon Apr 11 01:03:51 2022 +0800
+| 
+|     [Added game html, top menu and styling]
+| 
+* commit 667b8dc670e451bbffb89ac1f6e6ebc06e59d274
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Fri Apr 8 18:12:55 2022 +0800
+| 
+|     Create index.HTML
+| 
+* commit 66fe83bbe6e4720415f2a8ca95c9091f1257e71d
+| Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+| Date:   Fri Apr 8 12:20:09 2022 +0800
+| 
+|     Update README.md
+| 
+* commit da5e7d6348cd8a2667f392523d81fc596a1f0fb7
+  Author: LvLaw <67629043+LvLaw@users.noreply.github.com>
+  Date:   Fri Apr 8 12:08:26 2022 +0800
+  
+      Initial commit
